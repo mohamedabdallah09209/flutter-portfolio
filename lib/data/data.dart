@@ -3,45 +3,55 @@ import 'package:portfolio/models/project_model.dart';
 
 //Update with colors of your choice for dp background gradient
 Color kGradient1 = Colors.purple;
-Color kGradient2 = Colors.pinkAccent;
+Color kGradient2 = Colors.blueAccent;
 
-String imagePath = "images/aditya.jpeg";
+String imagePath = "images/myprofile.jpg";
 
 //String data to modify
-String name = "Your Name";
-String username = "flutterroles";
+String name = "Mohamed Abdallah";
+String username = "Software Engineer";
 
 //Link to resume on Google Drive
 String resumeLink =
-    "https://drive.google.com/file/d/1uZPqMWva6pZxzQxsR_ILLZ_FxJr24QeY/view?usp=sharing";
+    "https://docs.google.com/document/d/1bHcs9aFLtlAi_deoVYPyYa7jbYe4xDw3/edit?usp=share_link&ouid=104833455370800709610&rtpof=true&sd=true";
 
 //Contact Email
-String contactEmail = "mail@adityathakur.in";
+String contactEmail = "mohamed.abdallah09209@gmail.com";
 
 String aboutWorkExperience = '''
-Hello I am a freelancer
 
-He has previously been a speaker at the Flutter Global Summit'21, Flutter Vikings and events across colleges, universities (like VIT Chennai, Vellore, MIT-ADT), and clubs (IEEE APSIT, SFIT, GirlScript, GeeksforGeeks Student Chapter, Google CrowdSource, and more) here in India. 
+* Work as freelancer mobile app developer with android using java programming language from January 2018 to September 2018.
+* Work as assistant manager at Scooter Company for delivery services from October 2018 to December 2018.
+* Worked as android developer using flutter framework and dart programming language at NSD company from 2019 to 2022.
+* Worked as android developer using flutter framework and dart programming language at Twzie-Tech company from 2022 till now.
+
+
+. 
 ''';
 
 String aboutMeSummary = '''
-Aditya is a content creator and has over 5K subscribers on YouTube and a 700+ member community on Discord. 
-📺 YouTube Channel: watch.adityathakur.in
-🚀 Discord Community: discord.adityathakur.in
+I am mohamed abdallah Software Engineering graduate from sudan university for science and technology. 
+
+- Experience in technical support and manager assistant. 
+- Experience in mobile app  development with android using java.
+- Experienced with all stages of the development cycle of projects.
+- Experience in mobile app  development with flutter using dart.
+- Well-versed in numerous programming languages including Java, Dart, php and  mySql.
+.
 ''';
 
-String location = "Dharamshala, India";
-String website = "adityathakur.in";
-String portfolio = "adityathakurxd";
-String email = "mail@adityathakur.in";
+String location = "Khartoum, Sudan";
+String website = "https://www.linkedin.com/in/mohamed-abdallah-01a165218/";
+String portfolio = "https://mostaql.com/portfolios";
+String email = "mohamed.abdallah09209@gmail.com";
 
 List<Project> projectList = [
   Project(
-      name: "Shades",
+      name: "Learn App",
       description:
-          "Winner IEEE Mandi 'Go Online' Challenge at Electrothon, NIT Hamirpur.",
-      link: "https://github.com/adityathakurxd/shades"),
-  Project(
+          "Application for learn some subjects' by chose what subject you want to learn, answer the questions and see the result of your quiz ,also you can preview your ansers.",
+      link: "https://github.com/mohamedabdallah09209/quizApp"),
+ /* Project(
       name: "Fiasco",
       description:
           "Fiasco is one stop solution to help you manage Family expenses in one place!",
@@ -55,4 +65,6 @@ List<Project> projectList = [
       name: "Flutter Portfolio",
       description: "A template for Portfolio",
       link: "https://github.com/adityathakurxd/flutter-portfolio")
+*/
 ];
+

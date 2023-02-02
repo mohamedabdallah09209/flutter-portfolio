@@ -18,6 +18,12 @@ TextStyle kSubTitleText = GoogleFonts.montserrat(
   fontSize: 12.0,
 );
 
+TextStyle kSubTitleText1 = GoogleFonts.montserrat(
+  color: Colors.blueAccent,
+  fontWeight: FontWeight.bold,
+  fontSize: 12.0,
+);
+
 TextStyle kSectionTitleText = GoogleFonts.montserrat(
   color: kPrimaryColor,
   fontWeight: FontWeight.bold,

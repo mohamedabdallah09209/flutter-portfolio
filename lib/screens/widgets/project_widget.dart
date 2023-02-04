@@ -9,7 +9,9 @@ class ProjectWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      margin: EdgeInsets.only(bottom: 30),
+      padding: EdgeInsets.only(bottom: 30),
       width: MediaQuery.of(context).size.width * 0.4,
       child: Card(
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
@@ -18,9 +20,9 @@ class ProjectWidget extends StatelessWidget {
             child: Row(
               children: [
                 Icon(
-                  Icons.build,
+                  Icons.android_sharp,
                   color: kGrey,
-                  size: 18,
+                  size: 25,
                 ),
                 const SizedBox(
                   width: 10,

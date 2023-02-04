@@ -51,12 +51,12 @@ List<Project> projectList = [
       description:
           "Application for learn some subjects' by chose what subject you want to learn, answer the questions and see the result of your quiz ,also you can preview your ansers.",
       link: "https://github.com/mohamedabdallah09209/quizApp"),
- /* Project(
-      name: "Fiasco",
-      description:
-          "Fiasco is one stop solution to help you manage Family expenses in one place!",
-      link: "https://github.com/adityathakurxd/fiasco"),
   Project(
+      name: "Magelan App",
+      description:
+          " Magelan application is a ecommerce app for products shopping  you can sellect your project to know price an order it!",
+      link: "https://github.com/mohamedabdallah09209/magelan"),
+  /*Project(
       name: "Fiasco",
       description:
           "Fiasco is one stop solution to help you manage Family expenses in one place!",
